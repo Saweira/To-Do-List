@@ -1,0 +1,99 @@
+html{
+    height: 100%;
+    background-image:  repeating-linear-gradient(#ff6161,#e6d011);
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    color: #0f222d;
+    background-size: auto;
+  }
+  
+  .main{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    background-image: repeating-linear-gradient()
+  }
+  h1{
+    text-align: center;
+    color: rgb(41, 0, 190);
+  }
+  form{
+    background-color: rgb(211, 24, 24);
+    padding: 15px;
+  }
+
+  #nt, #clear{
+    background-color: #e6d011;
+    color: rgb(41, 0, 190);
+    width: fit-content;
+  }
+
+  input[type="text"]{
+    width: 310px;
+    height: 30px;
+    outline: 0;
+    border: none;
+    font-size: 1.5em;
+    background: #fff;
+    color: #2f4f4f;
+  }
+  button{
+    font-size: 1.5em;
+    color: #53BDFF;
+    background-color: #fff;
+    outline: 0;
+    border: none;
+    width: 50px;
+  
+  }
+  .tasksBoard{
+    background-color: #fff;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    display: none;
+    background-color: rgb(211, 24, 24);
+    color: rgb(41, 0, 190);
+  }
+  
+  ul{
+    list-style: none;
+  }
+  li{
+    border-bottom: 1px solid #53BDFF;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 1.3em;
+    color: #e6d011;
+  }
+  a{
+    float: right;
+    text-align: right;
+    color: #ff6161;
+    font-size: 1.2em;
+    cursor: pointer;
+    
+  }
+  .delete{
+    background-color: #ff6161;
+    padding: 0px 3px 0px 3px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 500px) {
+    .main{
+      margin: auto;
+      width: 100%;
+    }
+    input[type="text"]{
+      width: 80%;
+      background-color: #e6d011;
+    }
+    button{
+      width: 10%;
+    }
+  }
